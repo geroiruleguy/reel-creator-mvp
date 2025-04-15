@@ -2,6 +2,11 @@
 
 A web application that creates video reels from multiple images using FFmpeg. Built with React, TypeScript, and Node.js.
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat&logo=node.js&logoColor=white)](https://nodejs.org/)
+
 ## Features
 
 - Upload multiple images to create a video reel
@@ -9,6 +14,8 @@ A web application that creates video reels from multiple images using FFmpeg. Bu
 - Smooth transitions between images
 - Download generated videos
 - Responsive design
+- Support for different social media platform dimensions (Instagram, TikTok, YouTube, Facebook)
+- Multiple transition effects (fade, slide, zoom, dissolve)
 
 ## Tech Stack
 
@@ -21,8 +28,8 @@ A web application that creates video reels from multiple images using FFmpeg. Bu
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/ffmeg-reel-creator-mvp.git
-cd ffmeg-reel-creator-mvp
+git clone https://github.com/geroiruleguy/reel-creator-mvp.git
+cd reel-creator-mvp
 ```
 
 2. Install dependencies:
@@ -53,13 +60,14 @@ The application will be available at:
 
 1. Open the application in your browser
 2. Click "Upload Images" to select multiple images
-3. Click "Generate Reel" to create your video
-4. Once generated, you can preview and download the video
+3. Choose your preferred platform dimensions and transition effect
+4. Click "Generate Reel" to create your video
+5. Once generated, you can preview and download the video
 
 ## Project Structure
 
 ```
-ffmeg-reel-creator-mvp/
+reel-creator-mvp/
 ├── backend/
 │   ├── src/
 │   │   ├── index.ts
@@ -77,8 +85,12 @@ ffmeg-reel-creator-mvp/
 
 ## Contributing
 
-Feel free to submit issues and enhancement requests!
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+- [Geroiruleguy](https://github.com/geroiruleguy) 
